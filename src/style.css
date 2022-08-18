@@ -1,0 +1,121 @@
+body {
+  background: #23252C;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width:60%;
+  margin-left: 350px;
+}
+.img {
+  max-width:50%;
+  height:auto;
+  margin: 0px auto;
+  width: 80%;
+}
+.cont1 {
+  max-width:50%;
+  height:auto;
+  margin: 0px auto;
+  width: 80%;
+  background: #1A1B21;
+}
+.first {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.second {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12.8px;
+  text-align: center;
+  margin-top: -10px;
+  color: #F3BF99;
+}
+.third {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 80%;
+ /* identical to box height, or 15px */
+  text-align: center;
+  color: #F5F5F5;
+}
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+.button {
+  width: 115px;
+  height: 34px;
+ /* white */
+  background: #FFFFFF;
+ /* gray/300 */
+  border: 1px solid #D1D5DB;
+ /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.button1 {
+  background-color: #5093E2;
+  width: 115px;
+  height: 34px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  color: #FFFFFF;
+ /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.cont3 {
+  max-width: 82%;
+  margin-left: 25px;
+}
+.cont3 > h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50%;
+ /* or 24px */
+  color: #F5F5F5;
+}
+.cont3 > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+.cont4 {
+  max-width:50%;
+  height:64px;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.fa {
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
